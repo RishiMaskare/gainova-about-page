@@ -105,7 +105,7 @@ export default function About() {
           </div>
           <div>
             <img
-              src="/images/cse.jpg"
+              src="/images/ml.jpg"
               alt="Team Collaboration"
               className="rounded-lg shadow mb-4 w-full h-48 object-cover"
             />
