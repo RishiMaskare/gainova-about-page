@@ -78,22 +78,40 @@ export default function About() {
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div>
-            <img src="/images/ai.jpg" alt="AI Illustration" className="rounded-lg shadow mb-4" />
-            <h3 className="text-xl font-semibold text-[#2563EB] dark:text-[#8EE0AD]">Artificial Intelligence</h3>
+            <img
+              src="/images/ai.jpg"
+              alt="AI Illustration"
+              className="rounded-lg shadow mb-4 w-full h-48 object-cover"
+            />
+            <h3 className="text-xl font-semibold text-[#2563EB] dark:text-[#8EE0AD]">
+              Artificial Intelligence
+            </h3>
             <p className="text-gray-700 dark:text-gray-300 text-sm">
               Building smart, ethical AI solutions for real-world problems.
             </p>
           </div>
           <div>
-            <img src="/images/image.png" alt="Students Working on Laptops" className="rounded-lg shadow mb-4" />
-            <h3 className="text-xl font-semibold text-[#2563EB] dark:text-[#8EE0AD]">Computer Science</h3>
+            <img
+              src="/images/image.png"
+              alt="Students Working on Laptops"
+              className="rounded-lg shadow mb-4 w-full h-48 object-cover"
+            />
+            <h3 className="text-xl font-semibold text-[#2563EB] dark:text-[#8EE0AD]">
+              Computer Science
+            </h3>
             <p className="text-gray-700 dark:text-gray-300 text-sm">
               Coding, designing, and deploying scalable software systems.
             </p>
           </div>
           <div>
-            <img src="/images/cse.jpg" alt="Team Collaboration" className="rounded-lg shadow mb-4" />
-            <h3 className="text-xl font-semibold text-[#2563EB] dark:text-[#8EE0AD]">Machine Learning</h3>
+            <img
+              src="/images/cse.jpg"
+              alt="Team Collaboration"
+              className="rounded-lg shadow mb-4 w-full h-48 object-cover"
+            />
+            <h3 className="text-xl font-semibold text-[#2563EB] dark:text-[#8EE0AD]">
+              Machine Learning
+            </h3>
             <p className="text-gray-700 dark:text-gray-300 text-sm">
               Hands-on ML training and competitions for future innovators.
             </p>
