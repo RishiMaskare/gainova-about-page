@@ -57,7 +57,7 @@ const menuItems = [
   {
     title: "About",
     items: [
-      "About TM Forum",
+      "About GAINOVA",
       "Membership",
       "Sponsorship and exhibitors",
       "Careers",
@@ -72,7 +72,7 @@ export default function Navbar() {
     <nav className="bg-white shadow sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold text-blue-700">
-          TM Forum
+          GAINOVA
         </Link>
         <div className="hidden md:flex space-x-6">
           {menuItems.map((menu, idx) => (
