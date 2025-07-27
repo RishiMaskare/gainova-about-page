@@ -3,52 +3,64 @@ import Link from "next/link";
 
 const menuItems = [
   {
-    title: "AI & CSE",
+    title: "Industry Missions",
     items: [
-      "Artificial Intelligence",
-      "Machine Learning",
-      "Software Development",
-      "Data Science",
+      "Join the industry movement",
+      "Composable IT and Ecosystems",
+      "Autonomous Networks",
+      "AI and Data Innovation",
+    ],
+  },
+  {
+    title: "Open Digital Architecture (ODA)",
+    items: [
+      "About ODA",
+      "How to apply ODA",
+      "Conformance",
+      "Member assets",
+      "Open APIs",
+      "ODA component directory",
+      "Canvas",
+    ],
+  },
+  {
+    title: "Member Projects",
+    items: [
+      "Collaboration projects",
+      "Catalysts",
+      "Innovation Hub",
     ],
   },
   {
     title: "Learn",
     items: [
-      "Workshops & Bootcamps",
-      "Online Sessions",
-      "Open Learning Materials",
+      "Education programs",
+      "Certification",
     ],
   },
   {
-    title: "Community",
+    title: "News and Insight",
     items: [
-      "College Chapters",
-      "Mentorship Program",
-      "Student Ambassadors",
+      "Newsroom",
+      "Industry insight",
     ],
   },
   {
     title: "Events",
     items: [
-      "Hackathons",
-      "Tech Talks",
-      "AI Summits",
-    ],
-  },
-  {
-    title: "Media",
-    items: [
-      "Podcasts",
-      "Blog Posts",
-      "Success Stories",
+      "All events",
+      "DTW Ignite",
+      "Innovate Americas",
+      "Innovate Asia",
     ],
   },
   {
     title: "About",
     items: [
-      "Our Story",
-      "Global AI Association",
-      "Join GAINOVA",
+      "About TM Forum",
+      "Membership",
+      "Sponsorship and exhibitors",
+      "Careers",
     ],
   },
 ];
@@ -59,8 +71,8 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-blue-700">
-          GAINOVA
+        <Link href="/" className="text-xl font-bold text-blue-700">
+          TM Forum
         </Link>
         <div className="hidden md:flex space-x-6">
           {menuItems.map((menu, idx) => (
