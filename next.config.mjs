@@ -1,6 +1,14 @@
-/** @type {import('next').NextConfig} */
+// next.config.mjs
 const nextConfig = {
-  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'undraw.co',
+        pathname: '/api/**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
